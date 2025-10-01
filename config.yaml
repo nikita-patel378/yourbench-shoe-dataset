@@ -7,15 +7,6 @@ model_list:
     base_url: https://openrouter.ai/api/v1
     api_key: $OPENROUTER_API_KEY
 
-  - model_name: gpt-4o
-    base_url: "https://api.openai.com/v1"  
-    api_key: $OPENAI_API_KEY
-
-  - model_name: claude-sonnet-4-20250514
-    base_url: "https://api.anthropic.com/v1/"  
-    api_key: $ANTHROPIC_API_KEY
-    
-
 pipeline:
   ingestion:
     llm_ingestion: true
